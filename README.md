@@ -8,8 +8,10 @@
 * This is my personal page on GitHub, where you can get to know more about me, see my deployed projects in action, and contact me!
 
 # :nut_and_bolt: Tools and Technologies
-Here is a list of tools nad technologies used to build this personal page
+Here is a list of tools nad technologies used to develop, deploy, and run this application:
 * Languages, libraries, and frameworks: `HTML`, `CSS`, `JavaScript`, `jQuery`, `Bootstrap`
 * Version control: `Git`
 * Editor: `Visual Studio Code`
 * Operating System: `Mac OS`
+* Web Browser: `Google Chrome`
+* Deployment: `GitHub Pages`
