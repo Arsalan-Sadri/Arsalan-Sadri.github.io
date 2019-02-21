@@ -75,6 +75,17 @@ h2.heading-bar,
     text-align: center;
 }
 
+/* Styling all buttons */
+.btn {
+    background: #607d8b;
+    color: white
+}
+
+.btn:hover {
+    background: #495861;
+    color: white
+}
+
 /* Making the footer stick at the bottom */
 .container-fluid {
     min-height: calc(100vh - 50px);
@@ -84,4 +95,3 @@ h2.heading-bar,
     height: 50px;
 }
 /* ********** */
-
