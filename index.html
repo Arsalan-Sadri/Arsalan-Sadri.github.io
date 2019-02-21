@@ -27,55 +27,54 @@
             integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
             crossorigin="anonymous"
         ></script>
+        <link rel="stylesheet" type="text/css" href="index.css" />
     </head>
     <body class="bg-light">
-        <div class="container">
-            <!-- ********** NAVBAR ********** -->
-            <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
-                <!-- ********** BRAND ********** -->
-                <a class="navbar-brand" href="https://arsalan-sadri.github.io"
-                    >Arsalan Sadri</a
-                >
+        <!-- ********** NAVBAR ********** -->
+        <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
+            <!-- ********** BRAND ********** -->
+            <a class="navbar-brand" href="https://arsalan-sadri.github.io"
+                >Arsalan Sadri</a
+            >
+            <!-- ********** TOGGLER BUTTON ********** -->
+            <button
+                class="navbar-toggler"
+                type="button"
+                data-toggle="collapse"
+                data-target="#navbarSupportedContent"
+                aria-controls="navbarSupportedContent"
+                aria-expanded="false"
+                aria-label="Toggle navigation"
+            >
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <!-- ********** COLLAPSE WRAPPER ********** -->
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <!-- ********** NAVBAR LINKS ********** -->
+                <ul class="navbar-nav ml-auto">
+                    <!-- ********** ABOUT ********** -->
+                    <li class="nav-item">
+                        <a class="nav-link" href="#about">About</a>
+                    </li>
+                    <!-- ********** PORTFOLIO ********** -->
+                    <li class="nav-item">
+                        <a class="nav-link" href="#portfolio">Portfolio</a>
+                    </li>
+                    <!-- ********** CONTACT ********** -->
+                    <li class="nav-item">
+                        <a class="nav-link" href="#contact">Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
 
-                <!-- ********** TOGGLER BUTTON ********** -->
-                <button
-                    class="navbar-toggler"
-                    type="button"
-                    data-toggle="collapse"
-                    data-target="#navbarSupportedContent"
-                    aria-controls="navbarSupportedContent"
-                    aria-expanded="false"
-                    aria-label="Toggle navigation"
-                >
-                    <span class="navbar-toggler-icon"></span>
-                </button>
-
-                <!-- ********** COLLAPSE WRAPPER ********** -->
-                <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                    <!-- ********** NAVBAR LINKS ********** -->
-                    <ul class="navbar-nav ml-auto">
-                        <!-- ********** ABOUT ********** -->
-                        <li class="nav-item">
-                            <a class="nav-link" href="#about">About</a>
-                        </li>
-                        <!-- ********** PORTFOLIO ********** -->
-                        <li class="nav-item">
-                            <a class="nav-link" href="#portfolio">Portfolio</a>
-                        </li>
-                        <!-- ********** CONTACT ********** -->
-                        <li class="nav-item">
-                            <a class="nav-link" href="#contact">Contact</a>
-                        </li>
-                    </ul>
-                </div>
-            </nav>
-
-            <!-- ********** BODY ********** -->
+        <!-- ********** BODY ********** -->
+        <div class="container-fluid">
             <div id="about"></div>
             <div id="portfolio">
                 <div class="row">
-                    <div class="col">
-                        <div class="card" style="width: 18rem;">
+                    <div class="col-md-6">
+                        <div class="card">
                             <img
                                 class="card-img-top"
                                 src="avatar.png"
