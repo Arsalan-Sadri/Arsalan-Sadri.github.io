@@ -61,10 +61,16 @@
 }
 /* ********** */
 
-.navbar {
+.navbar,
+h2.heading-bar,
+#footer {
     background: #4d636f;
+    font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans",
+        Arial, sans-serif;
 }
 
-#portfolio > h2 {
+h2.heading-bar,
+#footer {
+    color: white;
     text-align: center;
 }
