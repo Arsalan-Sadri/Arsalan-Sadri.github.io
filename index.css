@@ -60,3 +60,11 @@
     }
 }
 /* ********** */
+
+.navbar {
+    background: #4d636f;
+}
+
+#portfolio > h2 {
+    text-align: center;
+}
