@@ -77,7 +77,7 @@ h2.heading-bar,
 
 /* Making the footer stick at the bottom */
 .container-fluid {
-    min-height: calc(100vh - 70px);
+    min-height: calc(100vh - 50px);
 }
 
 .footer {
