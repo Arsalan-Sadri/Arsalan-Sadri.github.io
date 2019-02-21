@@ -63,18 +63,25 @@
 
 .navbar,
 h2.heading-bar,
-#footer {
+.footer {
     background: #4d636f;
     font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans",
         Arial, sans-serif;
 }
 
 h2.heading-bar,
-#footer {
+.footer {
     color: white;
     text-align: center;
 }
 
-#footer {
-    
+/* Making the footer stick at the bottom */
+.container-fluid {
+    min-height: calc(100vh - 70px);
 }
+
+.footer {
+    height: 50px;
+}
+/* ********** */
+
