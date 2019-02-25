@@ -58,14 +58,14 @@
 
 /* Styling navbar, heading bars, and footer */
 .navbar,
-h2.heading-bar,
+.heading-bar,
 .footer {
     background: #4d636f;
     font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans",
         Arial, sans-serif;
 }
 
-h2.heading-bar,
+.heading-bar,
 .footer {
     color: white;
     text-align: center;
@@ -89,20 +89,6 @@ h2.heading-bar,
 
 .footer {
     height: 50px;
-}
-
-/* Styling profile card */
-.profile-card {
-    overflow: auto;
-}
-
-.img-div {
-    float: left;
-    margin-right: 40px;
-}
-.img-div > img {
-    width: 230px;
-    height: 250px;
 }
 
 /* Making the navbar sticks at the top */
