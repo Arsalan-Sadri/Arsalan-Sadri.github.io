@@ -101,3 +101,10 @@
 i.fas {
     font-size: 1.1em;
 }
+
+/* STYLING JUMBOTRON */
+.jumbotron {
+    border-radius: 0;
+    background-image: url(images/jumbotron_img.jpg);
+    background-size: cover;
+}
