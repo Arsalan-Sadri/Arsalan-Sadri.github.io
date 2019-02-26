@@ -61,6 +61,10 @@
 .heading-bar,
 .footer {
     background: #4d636f;
+}
+
+.navbar,
+.heading-bar {
     font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans",
         Arial, sans-serif;
 }
@@ -69,6 +73,12 @@
 .footer {
     color: white;
     text-align: center;
+}
+
+/* SETTING FOOTER'S HEIGHT EXPLICITLY */
+.footer {
+    height: 50px;
+    font-size: 0.8rem;
 }
 
 /* Styling all buttons */
@@ -87,10 +97,7 @@
     min-height: calc(100vh - 50px);
 }
 
-.footer {
-    height: 50px;
-}
-
-img {
-    max-width: 60%;
+/* MAKING ALL FONTAWESOME ICONS BIGGER */
+i.fas {
+    font-size: 1.1em;
 }
