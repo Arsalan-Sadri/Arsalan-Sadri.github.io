@@ -108,3 +108,7 @@ i.fas {
     background-image: url(images/jumbotron_img.jpg);
     background-size: cover;
 }
+
+.card {
+    box-shadow: 0px 0px 50px 4px rgb(160, 155, 155);
+}
