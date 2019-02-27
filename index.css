@@ -75,12 +75,6 @@
     text-align: center;
 }
 
-/* SETTING FOOTER'S HEIGHT EXPLICITLY */
-.footer {
-    height: 50px;
-    font-size: 0.8rem;
-}
-
 /* Styling all buttons */
 .btn {
     background: #607d8b;
@@ -100,6 +94,19 @@
     z-index: 1;
 }
 
+/* STYLING JUMBOTRON */
+.jumbotron {
+    border-radius: 0;
+    background-image: url(images/jumbotron_img.jpg);
+    background-size: cover;
+}
+
+/* SETTING FOOTER'S HEIGHT EXPLICITLY */
+.footer {
+    height: 50px;
+    font-size: 0.8rem;
+}
+
 /* MAKING THE FOOTER STICK AT THE BOTTOM */
 .container-fluid {
     min-height: calc(100vh - 50px);
@@ -108,13 +115,6 @@
 /* MAKING ALL FONTAWESOME ICONS BIGGER */
 i.fas {
     font-size: 1.1em;
-}
-
-/* STYLING JUMBOTRON */
-.jumbotron {
-    border-radius: 0;
-    background-image: url(images/jumbotron_img.jpg);
-    background-size: cover;
 }
 
 /* MAKING ALL CARDS HAVE SHADOW EFFECT */
