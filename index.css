@@ -114,7 +114,7 @@
 
 /* MAKING ALL FONTAWESOME ICONS BIGGER */
 i.fas {
-    font-size: 1.3em;
+    font-size: 1.3rem;
 }
 
 /* MAKING ALL CARDS HAVE SHADOW EFFECT */
@@ -125,9 +125,10 @@ i.fas {
 /* MAKING CONTACT ICONS BIGGER */
 .contact-row i.fas,
 .contact-row i.fab {
-    font-size: 2.2em;
+    font-size: 2.2rem;
 }
 
+/* MAKING THE RANKING SMALLER */
 a > span {
     font-size: 0.7rem;
 }
