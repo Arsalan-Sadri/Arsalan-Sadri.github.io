@@ -129,6 +129,6 @@ i.fas {
 }
 
 /* MAKING THE RANKING SMALLER */
-a > span {
+span.ranking {
     font-size: 0.7rem;
 }
