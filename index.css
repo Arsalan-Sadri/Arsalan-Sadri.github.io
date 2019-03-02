@@ -86,14 +86,6 @@
   color: white;
 }
 
-/* MAKING THE NAVBAR STICK AT THE TOP WITH PAGE SCROLLING */
-/* .navbar {
-    position: fixed;
-    top: 0;
-    width: 100%;
-    z-index: 1;
-} */
-
 /* STYLING JUMBOTRON */
 .jumbotron {
   border-radius: 0;
