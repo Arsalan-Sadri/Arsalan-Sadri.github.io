@@ -132,3 +132,9 @@ i.fas {
 span.ranking {
   font-size: 0.7rem;
 }
+
+/* FOOTER LINKS */
+.footer a {
+  color: white;
+  text-decoration: underline;
+}
