@@ -89,7 +89,7 @@
 /* STYLING JUMBOTRON */
 .jumbotron {
   border-radius: 0;
-  background-image: url(images/jumbotron_img.jpg);
+  background-image: url(Assets/Images/jumbotron_img.jpg);
   background-size: cover;
 }
 
