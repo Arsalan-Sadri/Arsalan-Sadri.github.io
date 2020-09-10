@@ -5,69 +5,17 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
     <title>Arsalan Sadri- Personal Page</title>
-    <link rel="icon" href="Assets/Images/GitHubFavicon.png" />
-    <!-- -------------- BOOTSTRAP 4 CDN INCLUDING JQUERY -------------- -->
-    <link
-      rel="stylesheet"
-      href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
-      integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO"
-      crossorigin="anonymous"
-    />
-    <script
-      src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
-      integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
-      crossorigin="anonymous"
-    ></script>
-    <script
-      src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"
-      integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
-      crossorigin="anonymous"
-    ></script>
-    <script
-      src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"
-      integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
-      crossorigin="anonymous"
-    ></script>
-    <!-- --------------------------- FONT AWESOME 5 CDN ------------------------ -->
-    <link
-      rel="stylesheet"
-      href="https://use.fontawesome.com/releases/v5.5.0/css/all.css"
-      integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU"
-      crossorigin="anonymous"
-    />
-    <!-- CREATING SMOOTH-SCROLLING EFECT-->
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-    <script>
-      $(document).ready(function() {
-        $("a").on("click", function(event) {
-          if (this.hash !== "") {
-            event.preventDefault();
-
-            var hash = this.hash;
-
-            $("html, body").animate(
-              {
-                scrollTop: $(hash).offset().top
-              },
-              1000,
-              function() {
-                window.location.hash = hash;
-              }
-            );
-          } // End if
-        });
-      });
-    </script>
-    <link rel="stylesheet" type="text/css" href="index.css" />
+    <link rel="icon" href="assets/images/github_favicon.png" />
+    <!-- <script src="assets/js/jquery-3.5.1.min.js"></script> -->
+    <link rel="stylesheet" href="assets/css/bootstrap_css/bootstrap.min.css" />
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css" />
   </head>
 
   <body class="bg-light">
     <!-- ********** NAVBAR ********** -->
     <nav class="navbar navbar-expand-sm navbar-dark">
       <!-- ********** BRAND ********** -->
-      <a class="navbar-brand" href="https://arsalan-sadri.github.io"
-        >Arsalan Sadri</a
-      >
+      <a class="navbar-brand" href="https://arsalan-sadri.com">Arsalan Sadri</a>
       <!-- ********** TOGGLER BUTTON ********** -->
       <button
         class="navbar-toggler"
@@ -116,14 +64,10 @@
           <div class="row mt-3">
             <!-- ********** IMAGE COL ********** -->
             <div class="col-sm-3 pb-3 pb-sm-0 mx-5 mx-sm-0 px-5 px-sm-3">
-              <img
-                src="Assets/Images/blog_pic.png"
-                alt="profile_pic"
-                class="img-fluid"
-              />
+              <img src="assets/images/blog_pic.png" alt="profile picture" class="img-fluid" />
             </div>
             <!-- ********** BIO COL ********** -->
-            <div class="col offset-md-1 ">
+            <div class="col offset-md-1">
               <!-- ********** DESC ROW ********** -->
               <div class="row">
                 <div class="col">
@@ -137,9 +81,9 @@
               <!-- ********** Résumé ********** -->
               <div class="row">
                 <div class="col-auto pr-0">
-                  <a href="Assets/Documents/Arsalan_Sadri_resume.pdf">
+                  <a href="assets/pdfs/Arsalan_Sadri_resume.pdf">
                     <img
-                      src="Assets/Images/résumé_snapshot.png"
+                      src="assets/images/résumé_snapshot.png"
                       alt="Résumé"
                       width="100"
                       height="100"
@@ -149,7 +93,7 @@
                 <div class="col">
                   <br />
                   Find my résumé
-                  <a href="Assets/Documents/Arsalan_Sadri_resume.pdf"> here</a>!
+                  <a href="assets/pdfs/Arsalan_Sadri_resume.pdf"> here</a>!
                 </div>
               </div>
               <br />
@@ -159,7 +103,7 @@
                 <div class="col-auto pr-0 pt-1">
                   <a href="https://www.manchester.ac.uk/">
                     <img
-                      src="Assets/Images/ManUni_logo.png"
+                      src="assets/images/man_uni_logo.png"
                       alt="University of Manchester logo"
                       width="100"
                       height="50"
@@ -167,7 +111,7 @@
                   </a>
                 </div>
                 <div class="col">
-                  <a href="Assets/Documents/MSc_degree.pdf">
+                  <a href="assets/pdfs/msc_degree.pdf">
                     <i>M.Sc. in Advanced Computer Science and IT Management</i>
                   </a>
                   <br />
@@ -175,16 +119,14 @@
                   <br />
                   Manchester, United Kingdom
                   <span class="ranking"
-                    >(<a
-                      href="https://www.topuniversities.com/universities/university-manchester"
+                    >(<a href="https://www.topuniversities.com/universities/university-manchester"
                       >27th University in 2020 World Ranking</a
                     >)</span
                   >
                   <br />
                   Thesis:
-                  <a href="Assets/Documents/MSc_Dissertation.pdf"
-                    >Design Patterns Using Component-based Software
-                    Development</a
+                  <a href="assets/pdfs/msc_dissertation.pdf"
+                    >Design Patterns Using Component-based Software Development</a
                   >
                   <br />
                   Supervisor: Dr.
@@ -197,7 +139,7 @@
                 <div class="col-auto pr-0 pt-1">
                   <a href="http://usc.ac.ir/en">
                     <img
-                      src="Assets/Images/UOSC_logo.jpg"
+                      src="assets/images/uosc_logo.jpg"
                       alt="University of Science and Culture log"
                       width="100"
                       height="50"
@@ -205,16 +147,13 @@
                   </a>
                 </div>
                 <div class="col">
-                  <a href="Assets/Documents/BEng_degree.pdf"
-                    ><i>B.Eng. in Software Engineering</i></a
-                  >
+                  <a href="assets/pdfs/beng_degree.pdf"><i>B.Eng. in Software Engineering</i></a>
                   <br />
                   University of Science and Culture
                   <br />
                   Tehran, Iran
                   <br />
-                  Thesis: Design and Development of Optical Character
-                  Recognition Software
+                  Thesis: Design and Development of Optical Character Recognition Software
                 </div>
               </div>
               <br />
@@ -225,7 +164,7 @@
                     href="https://www.certmetrics.com/amazon/public/badge.aspx?i=2&t=c&d=2019-06-03&ci=AWS00844899"
                   >
                     <img
-                      src="Assets/Images/aws_badge_logo.png"
+                      src="assets/images/aws_badge_logo.png"
                       alt="AWS Certified Developer - Associate"
                       width="100"
                       height="100"
@@ -234,9 +173,7 @@
                 </div>
                 <div class="col">
                   <br />
-                  <a
-                    href="Assets/Documents/AWS_Certified_Developer_Associate_certificate.pdf"
-                  >
+                  <a href="assets/pdfs/aws_certified_developer_associate_certificate.pdf">
                     <i>AWS Certified Developer - Associate</i>
                   </a>
                 </div>
@@ -248,7 +185,7 @@
                 <div class="col-auto pr-0">
                   <a href="https://ce.uci.edu/">
                     <img
-                      src="Assets/Images/uci_logo.png"
+                      src="assets/images/uosc_logo.jpg"
                       alt="University of California Irvine"
                       width="100"
                       height="100"
@@ -256,10 +193,10 @@
                   </a>
                 </div>
                 <div class="col">
-                  <a href="Assets/Documents/Bootcamp_certificate.pdf">
+                  <a href="assets/pdfs/boot_camp_certificate.pdf">
                     <i>Full Stack Web Developer</i>
                   </a>
-                  <a href="Assets/Documents/Boot_camp_Transcript.pdf">
+                  <a href="assets/pdfs/boot_camp_transcript.pdf">
                     <small>(Transcripts)</small>
                   </a>
                   <br />
@@ -272,9 +209,7 @@
                   Irvine, CA, United States
                   <br />
                   Instructor:
-                  <a href="https://www.linkedin.com/in/taylorblanche"
-                    >Taylor Blanche</a
-                  >
+                  <a href="https://www.linkedin.com/in/taylorblanche">Taylor Blanche</a>
                 </div>
               </div>
             </div>
@@ -295,10 +230,9 @@
           <div class="row mt-3 mb-4">
             <div class="col">
               <p>
-                Below you can find some of my projects, their short
-                descriptions, links to GitHub repositories as well as deployed
-                applications. For the full list of my projects and applications,
-                please visit my
+                Below you can find some of my projects, their short descriptions, links to GitHub
+                repositories as well as deployed applications. For the full list of my projects and
+                applications, please visit my
                 <a href="https://github.com/Arsalan-Sadri">GitHub profile</a>.
               </p>
             </div>
@@ -311,15 +245,14 @@
                 <div class="card-header">
                   <h4>1- React Social App</h4>
                   <div>
-                    A minimalistic social media web app where users can sign up,
-                    upload pictures, create profiles and events, and look for
-                    events nearby!
+                    A minimalistic social media web app where users can sign up, upload pictures,
+                    create profiles and events, and look for events nearby!
                   </div>
                 </div>
                 <img
                   class="card-img-bottom"
-                  src="Assets/Images/20_Project_3_ReactSocialMedia/signin_page.png"
-                  alt="Card image cap"
+                  src="assets/images/20_Project_3_ReactSocialMedia/signin_page.png"
+                  alt="card image cap"
                 />
                 <div class="card-footer">
                   <a
@@ -345,24 +278,20 @@
                 <div class="card-header">
                   <h4>2- React Clicky Game</h4>
                   <div>
-                    A web app memory game that keeps track of users' selected
-                    Assets/Images and updates their scores accordingly.
+                    A web app memory game that keeps track of users' selected Assets/Images and
+                    updates their scores accordingly.
                   </div>
                 </div>
                 <img
                   class="card-img-bottom"
-                  src="Assets/Images/18_ReactClickyGame/main_page.png"
+                  src="assets/images/18_ReactClickyGame/main_page.png"
                   alt="Card image cap"
                 />
                 <div class="card-footer">
-                  <a
-                    href="https://github.com/Arsalan-Sadri/18_ReactClickyGame"
-                    class="btn mt-2"
+                  <a href="https://github.com/Arsalan-Sadri/18_ReactClickyGame" class="btn mt-2"
                     >GitHub repository</a
                   >
-                  <a
-                    href="https://arsalan-sadri.github.io/18_ReactClickyGame/"
-                    class="btn mt-2"
+                  <a href="https://arsalan-sadri.github.io/18_ReactClickyGame/" class="btn mt-2"
                     >Deployed app</a
                   >
                 </div>
@@ -376,25 +305,18 @@
               <div class="card">
                 <div class="card-header">
                   <h4>3- GIPHY API</h4>
-                  <div>
-                    A web app that populates with gifs of your choice via the
-                    GIPHY API
-                  </div>
+                  <div>A web app that populates with gifs of your choice via the GIPHY API</div>
                 </div>
                 <img
                   class="card-img-top"
-                  src="Assets/Images/06_Giphy_API/main_page.png"
+                  src="assets/images/06_Giphy_API/main_page.png"
                   alt="Card image cap"
                 />
                 <div class="card-footer">
-                  <a
-                    href="https://github.com/Arsalan-Sadri/06_GiphyAPI"
-                    class="btn mt-2"
+                  <a href="https://github.com/Arsalan-Sadri/06_GiphyAPI" class="btn mt-2"
                     >GitHub repository</a
                   >
-                  <a
-                    href="https://arsalan-sadri.github.io/06_GiphyAPI/"
-                    class="btn mt-2"
+                  <a href="https://arsalan-sadri.github.io/06_GiphyAPI/" class="btn mt-2"
                     >Deployed app</a
                   >
                 </div>
@@ -409,19 +331,17 @@
                 <div class="card-header">
                   <h4>4- Bamazon</h4>
                   <div>
-                    A fully-featured Node.js console application simulating a
-                    online retail shopping experience like that of Amazon.
+                    A fully-featured Node.js console application simulating a online retail shopping
+                    experience like that of Amazon.
                   </div>
                 </div>
                 <img
                   class="card-img-bottom"
-                  src="Assets/Images/11_Bamazon/inventory_table.png"
+                  src="assets/images/11_Bamazon/inventory_table.png"
                   alt="Card image cap"
                 />
                 <div class="card-footer">
-                  <a
-                    href="https://github.com/Arsalan-Sadri/11_Bamazon"
-                    class="btn mt-2"
+                  <a href="https://github.com/Arsalan-Sadri/11_Bamazon" class="btn mt-2"
                     >GitHub repository</a
                   >
                 </div>
@@ -445,29 +365,17 @@
             <!-- ********** YOUR ACCLAIM COL ********** -->
             <div class="col-auto">
               <a href="https://www.youracclaim.com/users/arsalan-sadri/">
-                <img
-                  src="Assets/Images/acclaim.png"
-                  alt="youracclaim"
-                  width="110"
-                  height="35"
-                />
+                <img src="assets/images/acclaim.png" alt="youracclaim" width="110" height="35" />
               </a>
             </div>
             <!-- ********** GITHUB COL ********** -->
             <div class="col-auto">
-              <a href="https://github.com/Arsalan-Sadri"
-                ><i class="fab fa-github text-dark"></i
-              ></a>
+              <a href="https://github.com/Arsalan-Sadri"><i class="fab fa-github text-dark"></i></a>
             </div>
             <!-- ********** AWS COL ********** -->
             <div class="col-auto pt-2">
               <a href="#">
-                <img
-                  src="Assets/Images/aws.png"
-                  alt="AWS IQ"
-                  width="44"
-                  height="30"
-                />
+                <img src="assets/images/aws.png" alt="AWS IQ" width="44" height="30" />
               </a>
             </div>
             <!-- ********** LINKEDIN COL ********** -->
@@ -478,19 +386,17 @@
             </div>
             <!-- ********** YOUTUBE COL ********** -->
             <div class="col-auto">
-              <a href="https://www.youtube.com/channel/UCV-ucKKfPnwbxLr_lKdMxoQ"
+              <a href="https://www.youtube.com/c/ArsalanSadri"
                 ><i class="fab fa-youtube text-danger"></i
               ></a>
             </div>
             <!-- ********** TWITTER COL ********** -->
             <div class="col-auto">
-              <a href="https://twitter.com/Arsalan_Sadri"
-                ><i class="fab fa-twitter"></i
-              ></a>
+              <a href="https://twitter.com/Arsalan_Sadri"><i class="fab fa-twitter"></i></a>
             </div>
             <!-- ********** EMAIL COL ********** -->
             <div class="col-auto">
-              <a href="mailto:contact@arsalan-sadri.com?Subject=Add a subject here!"
+              <a href="mailto:contact@arsalan-sadri.com!"
                 ><i class="fas fa-envelope text-secondary"></i
               ></a>
             </div>
@@ -503,8 +409,7 @@
     <div class="row footer">
       <div class="col">
         Designed and developed by
-        <a href="https://Arsalan-Sadri.github.io">Arsalan Sadri</a> | All rights
-        reserved
+        <a href="https://Arsalan-Sadri.com">Arsalan Sadri</a> | All rights reserved
       </div>
     </div>
 
@@ -515,39 +420,20 @@
       <div class="modal-content">
         <span class="close">&times;</span>
         <p>
-          "React Social Web App" is hosted on Heroku under the free plan, which
-          might take up to 30 seconds to process the first request after 30
-          minutes of server inactivity! Please be patient.
+          "React Social Web App" is hosted on Heroku under the free plan, which might take up to 30
+          seconds to process the first request after 30 minutes of server inactivity! Please be
+          patient.
         </p>
       </div>
     </div>
-
-    <script>
-      // Get the modal
-      var modal = document.getElementById("myModal");
-
-      // Get the button that opens the modal
-      var btn = document.getElementById("modal-show-btn");
-
-      // Get the <span> element that closes the modal
-      var span = document.getElementsByClassName("close")[0];
-
-      // When the user clicks the button, open the modal
-      btn.onclick = function() {
-        modal.style.display = "block";
-      };
-
-      // When the user clicks on <span> (x), close the modal
-      span.onclick = function() {
-        modal.style.display = "none";
-      };
-
-      // When the user clicks anywhere outside of the modal, close it
-      window.onclick = function(event) {
-        if (event.target == modal) {
-          modal.style.display = "none";
-        }
-      };
-    </script>
+    <script src="assets/js/jquery-3.5.1.min.js"></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"
+      integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+      crossorigin="anonymous"
+    ></script>
+    <script src="assets/js/bootstrap_js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="assets/css/font_awesome_css/css/all.min.css" />
+    <script src="assets/js/index.js"></script>
   </body>
 </html>
