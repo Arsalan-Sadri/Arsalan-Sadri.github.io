@@ -115,10 +115,10 @@ i.fas {
 }
 
 /* MAKING CONTACT ICONS BIGGER */
-.contact-row i.fas,
+/* .contact-row i.fas,
 .contact-row i.fab {
   font-size: 2.2rem;
-}
+} */
 
 /* MAKING THE RANKING SMALLER */
 span.ranking {
@@ -169,4 +169,15 @@ span.ranking {
   color: #000;
   text-decoration: none;
   cursor: pointer;
+}
+
+.contact-bar {
+  position: fixed;
+  top: 20vh;
+  right: 2vw;
+}
+
+.contact-bar i.fas,
+.contact-bar i.fab {
+  font-size: 2.2rem;
 }
