@@ -174,7 +174,7 @@ span.ranking {
 .contact-bar {
   position: fixed;
   top: 20vh;
-  right: 2vw;
+  right: 10px;
 }
 
 .contact-bar i.fas,
