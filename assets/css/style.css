@@ -171,7 +171,7 @@ span.ranking {
   cursor: pointer;
 }
 
-#contact-bar {
+/* #contact-bar {
   position: fixed;
   top: 30vh;
   right: 10px;
@@ -187,4 +187,4 @@ span.ranking {
   #contact-bar {
     position: unset;
   }
-}
+} */
