@@ -364,12 +364,12 @@
           <div class="row mt-5">
             <!-- ********** FORM ********** -->
             <div class="col-sm-10 pl-4">
-              <form>
+              <form onsubmit="handleFormSubmit(event)">
                 <p>
                   <input
                     class="form-control form-control-lg font-italic"
                     placeholder="Your name"
-                    name="full-name"
+                    name="name"
                     type="text"
                   />
                 </p>
@@ -384,8 +384,8 @@
                 <p>
                   <input
                     class="form-control form-control-lg font-italic"
-                    placeholder="Your phone (optional)"
-                    name="phone"
+                    placeholder="Subject"
+                    name="subject"
                     type="text"
                   />
                 </p>
@@ -398,7 +398,9 @@
                     rows="6"
                   ></textarea>
                 </p>
-                <p><button class="btn btn-success">Send</button></p>
+                <p>
+                  <input type="submit" value="Send message" id="send-btn" class="btn btn-success" />
+                </p>
               </form>
             </div>
             <!-- ********** CONTACT BAR ********** -->
@@ -445,7 +447,7 @@
                 </div>
                 <!-- ********** EMAIL COL ********** -->
                 <div class="col-auto">
-                  <a href="mailto:contact@arsalan-sadri.com!"
+                  <a href="mailto:contact@arsalan-sadri.com"
                     ><i class="fas fa-envelope text-secondary"></i
                   ></a>
                 </div>

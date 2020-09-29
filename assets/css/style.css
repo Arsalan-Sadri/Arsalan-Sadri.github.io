@@ -189,7 +189,7 @@ span.ranking {
   .contact-bar {
     position: fixed;
     flex-direction: column;
-    top: 25%;
+    top: 40%;
     right: 0.5%;
   }
 

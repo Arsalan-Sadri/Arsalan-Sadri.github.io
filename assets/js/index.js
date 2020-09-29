@@ -1,3 +1,7 @@
+function handleFormSubmit(ev) {
+  ev.preventDefault();
+}
+
 // Get the modal
 var modal = document.getElementById('myModal');
 
