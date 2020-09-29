@@ -114,12 +114,6 @@ i.fas {
   box-shadow: 0px 0px 50px 4px rgb(160, 155, 155);
 }
 
-/* MAKING CONTACT ICONS BIGGER */
-/* .contact-row i.fas,
-.contact-row i.fab {
-  font-size: 2.2rem;
-} */
-
 /* MAKING THE RANKING SMALLER */
 span.ranking {
   font-size: 0.7rem;
@@ -171,20 +165,21 @@ span.ranking {
   cursor: pointer;
 }
 
-/* #contact-bar {
-  position: fixed;
-  top: 30vh;
-  right: 10px;
-}
-
-#contact-bar i.fas,
-#contact-bar i.fab {
+/* MAKING CONTACT ICONS BIGGER */
+.contact-row i.fas,
+.contact-row i.fab {
   font-size: 2.2rem;
 }
 
-
-@media only screen and (max-width: 999px) {
-  #contact-bar {
-    position: unset;
+@media only screen and (min-width: 999px) {
+  .contact-row {
+    position: fixed;
+    flex-direction: column;
+    top: 30vh;
+    right: 10px;
   }
-} */
+
+  .contact-row > div {
+    margin: 7px 0;
+  }
+}
