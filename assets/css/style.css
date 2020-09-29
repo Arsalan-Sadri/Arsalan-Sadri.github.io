@@ -222,7 +222,7 @@ span.ranking {
     font-size: 2rem;
   }
 
-  div > a > img {
+  div.contact-bar a > img {
     width: 35px;
     height: 24px;
   }
